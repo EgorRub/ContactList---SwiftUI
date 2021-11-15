@@ -11,6 +11,11 @@
 		74AD25612742519D000E37D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD25602742519D000E37D8 /* ContentView.swift */; };
 		74AD2563274251A3000E37D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD2562274251A3000E37D8 /* Assets.xcassets */; };
 		74AD2566274251A3000E37D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AD2565274251A3000E37D8 /* Preview Assets.xcassets */; };
+		74BF521A2742529A00E9D0AB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF52192742529A00E9D0AB /* Model.swift */; };
+		74BF521C274252A600E9D0AB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF521B274252A600E9D0AB /* DataManager.swift */; };
+		74BF521F274252FC00E9D0AB /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF521E274252FC00E9D0AB /* ContactList.swift */; };
+		74BF52212742530D00E9D0AB /* NumberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF52202742530D00E9D0AB /* NumberList.swift */; };
+		74BF5225274260F600E9D0AB /* PersonInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BF5224274260F600E9D0AB /* PersonInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		74AD25602742519D000E37D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74AD2562274251A3000E37D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AD2565274251A3000E37D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74BF52192742529A00E9D0AB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		74BF521B274252A600E9D0AB /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		74BF521E274252FC00E9D0AB /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		74BF52202742530D00E9D0AB /* NumberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberList.swift; sourceTree = "<group>"; };
+		74BF5224274260F600E9D0AB /* PersonInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,12 @@
 		74AD255D2742519D000E37D8 /* ContactList - SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				74BF521D274252AA00E9D0AB /* Model */,
 				74AD255E2742519D000E37D8 /* ContactList___SwiftUIApp.swift */,
 				74AD25602742519D000E37D8 /* ContentView.swift */,
+				74BF521E274252FC00E9D0AB /* ContactList.swift */,
+				74BF5224274260F600E9D0AB /* PersonInformation.swift */,
+				74BF52202742530D00E9D0AB /* NumberList.swift */,
 				74AD2562274251A3000E37D8 /* Assets.xcassets */,
 				74AD2564274251A3000E37D8 /* Preview Content */,
 			);
@@ -65,6 +79,15 @@
 				74AD2565274251A3000E37D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74BF521D274252AA00E9D0AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74BF52192742529A00E9D0AB /* Model.swift */,
+				74BF521B274252A600E9D0AB /* DataManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BF52212742530D00E9D0AB /* NumberList.swift in Sources */,
+				74BF521A2742529A00E9D0AB /* Model.swift in Sources */,
+				74BF521C274252A600E9D0AB /* DataManager.swift in Sources */,
 				74AD25612742519D000E37D8 /* ContentView.swift in Sources */,
 				74AD255F2742519D000E37D8 /* ContactList___SwiftUIApp.swift in Sources */,
+				74BF521F274252FC00E9D0AB /* ContactList.swift in Sources */,
+				74BF5225274260F600E9D0AB /* PersonInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
