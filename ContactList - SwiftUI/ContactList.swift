@@ -19,7 +19,7 @@ struct ContactList: View {
                     }
                 }
                 .listStyle(.plain)
-                .navigationTitle("Person List")
+                .navigationTitle("Contact List")
         }
     }
 }

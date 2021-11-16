@@ -18,7 +18,7 @@ struct PersonInformation: View {
                 Spacer()
                 Image(systemName: "person.circle")
                     .resizable()
-                    .frame(width: 120, height: 120)
+                    .frame(width: 150, height: 150)
                 Spacer()
                 }
                 Label(contact.phone, systemImage: "phone")
@@ -30,6 +30,6 @@ struct PersonInformation: View {
 
 struct PersonInformation_Previews: PreviewProvider {
     static var previews: some View {
-        PersonInformation(contact: Person.getOnePerson())
+        PersonInformation(contact: Person.getPersonList().first!)
     }
 }

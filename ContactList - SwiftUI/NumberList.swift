@@ -15,12 +15,14 @@ struct NumberList: View {
     var body: some View {
         List {
             ForEach(contactList) { contact in
-                Section(header: Text(contact.title)) {
+                Section(header: Text(contact.title).font(.headline)) {
                     Label(contact.phone, systemImage: "phone")
                     Label(contact.email, systemImage: "tray")
                 }
+                .textCase(.none) // Чтобы Имена были ине капсом
             }
         }
+        .navigationTitle("Contact List")
     }
 }
 
